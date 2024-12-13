@@ -20,6 +20,12 @@
   text-align: justify;
 }
 
+.skills .card h2 {
+  font-family: var(--quaternary-font);
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
 .skills .card .hover-more {
   position: absolute;
   bottom: 24px;
