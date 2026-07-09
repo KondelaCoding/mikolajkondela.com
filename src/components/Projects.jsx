@@ -54,16 +54,19 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      <div className="title-container">
-        <ArrowDownLeft
-          size={300}
-          color="white"
-          strokeLinecap="flat"
-          strokeLinejoin="flat"
-          strokeWidth={0.5}
-          className="title-arrow"
-        />
-        <h1>Projects</h1>
+      <div className="header">
+        <div className="test"></div>
+        <div className="title-container">
+          <ArrowDownLeft
+            size={300}
+            color="white"
+            strokeLinecap="flat"
+            strokeLinejoin="flat"
+            strokeWidth={0.5}
+            className="title-arrow"
+          />
+          <h1>Projects</h1>
+        </div>
       </div>
       <div className="container">
         <div className="content">
